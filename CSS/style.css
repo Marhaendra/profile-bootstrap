@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body  {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body  {
 }
 
 nav {
-    padding: 40px;
+    padding: 25px;
     width: 100%;
     height: 65px;
     padding: 0 10px;
@@ -16,151 +17,43 @@ nav {
     color:white;
     position: fixed;
 }
+
+nav li{
+    position: relative;
+    right: 40px;
+    height: 20px;
+}
 nav img {
-    padding-top: 4px;
-    position: fixed;
-}
-nav li {
-    text-decoration:none ;
-    background: rgb(100, 149, 237);
-    border-radius: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-ul {
-    margin: 0;
-    padding-top: 16px;
-    float: right;
-    padding-right: 16px;
+    position: relative;
+    bottom: 13px;
+    right: 730px;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 8px;
+.nav-link {
+    position: relative;
+    left: 740px;
 }
+
 section {
     padding: 40px;
 }
-#Hero {
-    display: flex;
-}
-nav img {
-    width: 60px;
-    height: 60px;
-    border: 1px solid;
-	background: rgb(100, 149, 237);
-    border-radius: 100px;
-    padding: 2px;
-}
-#Info {
-    position: fixed;
-    width: 30%;
-}
-#Info p {
+
+.card {
     position: relative;
-    right: 35px;
-    font-size: 43px;
-    color: white;
-	background-color: rgb(100, 149, 237);
-    width: 350px;
-    height: 55px;
-    padding-top: 2px;
-    border-radius: 100px;
+    left: 33%;
+    width: 32%;
+}
+
+#Contact p {
+    position: relative;
+    left: 128px;
+}
+#Contact h1 {
+    position: relative;
+    left: 138px;
+
+}
+#Contact h5 {
     text-align: center;
-}
-#Info h1 {
-    position: relative;
-    right: 35px;
-    top: 25px;
-    color: white;
-	background-color: rgb(100, 149, 237);
-    width: 100px;
-    height: 35px;
-    padding-top: 5px;
-    border-radius: 50px;
-    text-align: center;
-}
-#Info h4 {
-    position: relative;
-    right: 35px;
-    bottom: 42px;
-    color: white;
-	background-color: rgb(100, 149, 237);
-    width: 400px;
-    height: 70px;
-    padding-top: 10px;
-    padding-left: 25px;
-    border-radius: 100px;
-    text-align: left;
-}
-#Info img {
-    position: relative;
-    right: 25px;
-    bottom: 20px;
-    box-align: center;
-    width: 80%;
-    border-radius: 20px;
-}
-#Keahlian {
-    width: 70%;
-    padding-left: 550px;
-}
-#Keahlian h1 {
-    position: relative;
-    left: 500px;
-    text-align: center;
-    color: white;
-    background-color: rgb(100, 149, 237);
-    width: 200px;
-    height: 40px;
-    padding-top: 5px;
-    border-radius: 50px;
-}
-#Tentang {
-    width: 65%;
-    padding-left: 550px;
-}
-#Tentang h1 {
-    position: relative;
-    left: 500px;
-    text-align: center;
-    color: white;
-    background-color: rgb(100, 149, 237);
-    width: 200px;
-    height: 40px;
-    padding-top: 5px;
-    border-radius: 50px;
-}
-#Tentang p {
-    position: relative;
-    left: 450px;
-}
-#Tentang img {
-    position: relative;
-    left: 300px;
-}
-#Kontak {
-    width: 65%;
-    padding-left: 550px;
-}
-#Kontak h1 {
-    position: relative;
-    left: 500px;
-    text-align: center;
-    color: white;
-    background-color: rgb(100, 149, 237);
-    width: 200px;
-    height: 40px;
-    padding-top: 5px;
-    border-radius: 50px;
-}
-#Kontak img {
-    position: relative;
-    left: 530px;
+
 }
